@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Take your coffee game to the next level. Create, optimize, and share your perfect recipes with SmartBrew – free for 7 days!
           </p>
-          <Button href="https://app.smartbrew.co/sign-in" color="white" className="mt-10">
+          <Button href="https://app.smartbrew.co/sign-up" color="white" className="mt-10">
             Try SmartBrew for Free
           </Button>
         </div>

@@ -31,7 +31,7 @@ export function Hero() {
         Our AI analyzes your preferences and brewing setup to craft the ideal recipe every single time.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Free 7-Day Trial</Button>
+        <Button href="https://app.smartbrew.co/sign-up">Free 7-Day Trial</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"

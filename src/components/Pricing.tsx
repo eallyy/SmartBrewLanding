@@ -138,7 +138,7 @@ export function Pricing() {
               name="SmartBrew Pro"
               price="$9.99"
               description="Get all SmartBrew features for just $9.99/month."
-              href="https://app.smartbrew.com/sign-in"
+              href="https://app.smartbrew.com/sign-up"
               features={[
                 'Create Unlimited Coffee Recipes',
                 'Recipe Sharing (Public & Private)',
