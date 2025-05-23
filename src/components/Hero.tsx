@@ -32,10 +32,10 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="https://app.smartbrew.co/sign-up">Free 7-Day Trial</Button>
+        {/*
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
-          className="hidden"
         >
           <svg
             aria-hidden="true"
@@ -45,6 +45,7 @@ export function Hero() {
           </svg>
           <span className="ml-3">See How Easy It Is</span>
         </Button>
+        */}
       </div>
       {/* Partners Section */}
       <div className="hidden mt-36 lg:mt-44">
