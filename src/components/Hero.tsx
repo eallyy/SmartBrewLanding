@@ -35,6 +35,7 @@ export function Hero() {
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
+          className="hidden"
         >
           <svg
             aria-hidden="true"
