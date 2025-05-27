@@ -2,6 +2,7 @@ import { type Metadata } from 'next'
 import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
 import FacebookPixel from '@/lib/pixel/facebook-pixel'
+import GoogleAnalytics from '@/lib/analytics'
 
 import '@/styles/tailwind.css'
 
@@ -96,6 +97,7 @@ export default function RootLayout({
     >
       <head>
         <FacebookPixel />
+        <GoogleAnalytics />
       </head>
       <body className="flex h-full flex-col">{children}</body>
     </html>
