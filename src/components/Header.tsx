@@ -13,6 +13,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import LeadHeaderButton from '@/components/LeadHeaderButton'
 
 function MobileNavLink({
   href,
@@ -101,11 +102,7 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="https://app.smartbrew.co">Login</NavLink>
             </div>
-            <Button href="https://app.smartbrew.co/sign-up" color="blue">
-              <span>
-                Start Brewing<span className="hidden lg:inline"> Today</span>
-              </span>
-            </Button>
+            <LeadHeaderButton />
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
+import LeadCTAButton from '@/components/LeadCTAButton'
 
 export function CallToAction() {
   return (
@@ -26,9 +27,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Take your coffee game to the next level. Create, optimize, and share your perfect recipes with SmartBrew – free for 7 days!
           </p>
-          <Button href="https://app.smartbrew.co/sign-up" color="white" className="mt-10">
-            Try SmartBrew for Free
-          </Button>
+          <LeadCTAButton />
         </div>
       </Container>
     </section>
