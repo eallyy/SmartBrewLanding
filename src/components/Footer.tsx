@@ -1,10 +1,17 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 
 export function Footer() {
+  const pathname = usePathname()
+  const homePrefix = pathname === '/' ? '' : '/'
+  const sectionHref = (id: string) => `${homePrefix}#${id}`
+
   return (
     <footer className="bg-slate-50">
       <Container>
@@ -12,9 +19,9 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href={sectionHref('features')}>Features</NavLink>
+              <NavLink href={sectionHref('testimonials')}>Testimonials</NavLink>
+              <NavLink href={sectionHref('pricing')}>Pricing</NavLink>
               <NavLink href="/privacy-policy">Privacy Policy</NavLink>
               <NavLink href="/terms-of-service">Terms Of Service</NavLink>
             </div>

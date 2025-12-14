@@ -134,7 +134,7 @@ export function Pricing() {
               href="https://app.smartbrew.com/sign-up"
               features={[
                 'Create Unlimited Coffee Recipes',
-                'Recipe Sharing (Public & Private)',
+                'Recipe Sharing (Public)',
                 'Recipe Archive',
                 'Multi-Language Support',
                 'Access to Community Feedback',
