@@ -128,7 +128,7 @@ export function Pricing() {
           <div className="max-w-2xl w-full lg:max-w-none lg:w-auto">
             <Plan
               featured
-              name="SmartBrew Pro"
+              name="SmartBrew Membership"
               price="$9.99"
               description="Get all SmartBrew features for just $9.99/month."
               href="https://app.smartbrew.com/sign-up"
