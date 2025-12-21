@@ -62,7 +62,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Brew Like a Pro – Everything You Need to Perfect Every Cup"
+      aria-label="Personalized recipes and feedback-driven tweaks"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
@@ -76,10 +76,11 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Brew Like a Pro – Everything You Need to Perfect Every Cup
+            Personalized recipes in seconds, tweaks in minutes
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            From recipe creation to brewing analysis, SmartBrew has all the tools to elevate your coffee game. Explore the features that make every cup exceptional.
+            Start with a tailored pour-over recipe, then refine it after each
+            cup using AI suggestions and brew analysis.
           </p>
         </div>
         <TabGroup

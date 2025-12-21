@@ -5,6 +5,12 @@ import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
 import LeadCTAButton from '@/components/LeadCTAButton'
 
+const frictionReducers = [
+  'Takes about 60 seconds',
+  'No equipment knowledge needed',
+  'Cancel anytime',
+]
+
 export function CallToAction() {
   return (
     <section
@@ -22,12 +28,29 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Start Brewing Better Coffee Today
+            Get your first recipe in seconds
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Take your coffee game to the next level. Create, optimize, and share your perfect recipes with SmartBrew – free for 7 days!
+            Answer a few questions, see your personalized pour-over recipe
+            instantly, and iterate with feedback. 7-day free trial (card
+            required).
           </p>
-          <LeadCTAButton />
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <LeadCTAButton />
+            <Button href="#example-recipe" variant="outline" color="white">
+              See example recipe
+            </Button>
+          </div>
+          <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm text-blue-100">
+            {frictionReducers.map((item) => (
+              <span
+                key={item}
+                className="rounded-full border border-white/30 px-3 py-1"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
         </div>
       </Container>
     </section>

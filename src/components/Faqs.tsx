@@ -30,7 +30,12 @@ const faqs = [
     {
       question: "What happens after the 7-day free trial?",
       answer:
-        "After your trial ends, you can continue using all features for just $9.99/month. Your brew logs, recipes, and settings will be saved.",
+        "Your card is charged $9.99/month after the trial ends. You can cancel anytime, and your brew logs and recipes stay saved.",
+    },
+    {
+      question: "Is a card required to start the trial?",
+      answer:
+        "Yes. We ask for a card to start the 7-day trial so your recipes stay uninterrupted if you decide to continue.",
     },
     {
       question: "Can I change the app language?",
@@ -47,7 +52,7 @@ const faqs = [
     {
       question: "What equipment do I need to use SmartBrew effectively?",
       answer:
-        "You’ll need a pour-over coffee maker, a digital scale, a gooseneck kettle, and a timer to get the most accurate brewing data.",
+        "Any pour-over setup works. A scale and timer help with precision, but SmartBrew adapts even if you are new to the gear.",
     },
     {
       question: "What if I forget to log a brew?",

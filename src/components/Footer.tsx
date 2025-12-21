@@ -20,7 +20,7 @@ export function Footer() {
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href={sectionHref('features')}>Features</NavLink>
-              <NavLink href={sectionHref('testimonials')}>Testimonials</NavLink>
+              <NavLink href={sectionHref('community')}>Community</NavLink>
               <NavLink href={sectionHref('pricing')}>Pricing</NavLink>
               <NavLink href="/privacy-policy">Privacy Policy</NavLink>
               <NavLink href="/terms-of-service">Terms Of Service</NavLink>

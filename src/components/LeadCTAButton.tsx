@@ -8,5 +8,5 @@ export default function LeadCTAButton() {
     track('Lead');
     window.location.replace("https://app.smartbrew.co/sign-up");
   }
-  return(<Button onClick={handleClick} color="white" className="mt-10">Try SmartBrew for Free</Button>);
+  return(<Button onClick={handleClick} color="white">Get your first recipe</Button>);
 }

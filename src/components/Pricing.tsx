@@ -1,6 +1,5 @@
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import LeadPricingButton from '@/components/LeadPricingButton'
 
@@ -99,6 +98,14 @@ function Plan({
           </li>
         ))}
       </ul>
+      <p
+        className={clsx(
+          'mt-6 text-sm',
+          featured ? 'text-white/90' : 'text-slate-400',
+        )}
+      >
+        7-day free trial (card required). Cancel anytime.
+      </p>
       <LeadPricingButton />
     </section>
   )
@@ -116,12 +123,13 @@ export function Pricing() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-[#8e54e9]" />
-              <span className="relative">Simple Pricing,</span>
+              <span className="relative">Simple pricing</span>
             </span>{' '}
-            Ultimate Coffee Experience
+            after your trial
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Get access to all SmartBrew features for just $9.99/month. No hidden fees, just exceptional pour-over brewing tools.
+            Full access for $9.99/month after a 7-day free trial (card
+            required).
           </p>
         </div>
         <div className="flex items-center justify-center mt-16">
@@ -130,15 +138,15 @@ export function Pricing() {
               featured
               name="SmartBrew Membership"
               price="$9.99"
-              description="Get all SmartBrew features for just $9.99/month."
+              description="Personalized recipes, feedback tweaks, and saved brews."
               href="https://app.smartbrew.com/sign-up"
               features={[
-                'Create Unlimited Coffee Recipes',
-                'Recipe Sharing (Public)',
-                'Recipe Archive',
-                'Multi-Language Support',
-                'Access to Community Feedback',
-                'AI-Powered Brew Optimization',
+                'Personalized recipe in seconds',
+                'Adjustments after feedback',
+                'Saved recipes and brew notes',
+                'Shareable recipe links',
+                'AI-powered brew optimization',
+                'Multi-language support',
               ]}
             />
           </div>

@@ -8,5 +8,5 @@ export default function LeadHeroButton() {
     track('Lead');
     window.location.replace("https://app.smartbrew.co/sign-up");
   }
-  return(<Button color="slate" onClick={handleClick}>Free 7-Day Trial</Button>);
+  return(<Button color="slate" onClick={handleClick}>Get your first recipe</Button>);
 }

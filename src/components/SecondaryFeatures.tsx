@@ -217,16 +217,16 @@ export function SecondaryFeatures() {
   return (
     <section
       id="secondary-features"
-      aria-label="Features for simplifying everyday business tasks"
+      aria-label="Save, share, and revisit recipes"
       className="pt-20 pb-14 sm:pt-32 sm:pb-20 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Advanced Features to Elevate Your Brewing Experience
+            Save the recipes that work for you
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Unlock powerful tools to save, share, and customize your coffee recipes – all in one place.
+            Keep every iteration, share with friends, and brew from any device.
           </p>
         </div>
         <FeaturesMobile />

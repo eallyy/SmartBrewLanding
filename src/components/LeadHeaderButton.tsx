@@ -8,9 +8,5 @@ export default function LeadHeaderButton() {
     track('Lead');
     window.location.replace("https://app.smartbrew.co/sign-up");
   }
-  return(<Button onClick={handleClick} color="blue">
-          <span>
-            Start Brewing<span className="hidden lg:inline"> Today</span>
-          </span>
-         </Button>);
+  return(<Button onClick={handleClick} color="blue">Get your first recipe</Button>);
 }

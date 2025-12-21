@@ -8,5 +8,5 @@ export default function LeadPricingButton() {
     track('Lead');
     window.location.replace("https://app.smartbrew.co/sign-up");
   }
-  return(<Button onClick={handleClick} color="white" className="mt-8">Get Started</Button>);
+  return(<Button onClick={handleClick} color="white" className="mt-8">Start 7-day trial</Button>);
 }
