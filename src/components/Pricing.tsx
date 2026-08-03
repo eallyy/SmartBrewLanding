@@ -139,7 +139,7 @@ export function Pricing() {
               name="SmartBrew Membership"
               price="$9.99"
               description="Personalized recipes, feedback tweaks, and saved brews."
-              href="https://app.smartbrew.com/sign-up"
+              href="https://smart-brew-app.vercel.app/sign-up"
               features={[
                 'Personalized recipe in seconds',
                 'Adjustments after feedback',
