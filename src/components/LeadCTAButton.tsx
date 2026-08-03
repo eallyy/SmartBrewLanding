@@ -6,7 +6,7 @@ export default function LeadCTAButton() {
   const { track } = usePixel();
   const handleClick = () => {
     track('Lead');
-    window.location.replace("https://app.smartbrew.co/sign-up");
+    window.location.replace("https://smart-brew-app.vercel.app/sign-up");
   }
   return(<Button onClick={handleClick} color="white">Get your first recipe</Button>);
 }
